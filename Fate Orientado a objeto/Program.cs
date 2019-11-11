@@ -10,6 +10,7 @@ namespace Fate_Orientado_a_objeto
     {
         static void Main(string[] args)
         {
+            //teste
             Database_Servants data = new Database_Servants();
             Master Player = new Master();
             Master Player2 = new Master();
@@ -18,6 +19,7 @@ namespace Fate_Orientado_a_objeto
             foreach(var serv in data.servos)
             {
                 Console.WriteLine("{0} - {1}", y, serv.Name);
+                y++;
             }
             Console.ReadKey();
         }
