@@ -10,7 +10,6 @@ namespace Fate_Orientado_a_objeto
     {
         static void Main(string[] args)
         {
-            //teste
             Database_Servants data = new Database_Servants();
             Master Player = new Master();
             Master Player2 = new Master();

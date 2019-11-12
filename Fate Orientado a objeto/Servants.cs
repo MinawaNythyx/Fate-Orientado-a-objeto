@@ -11,6 +11,7 @@ namespace Fate_Orientado_a_objeto
         private string name;
         private float maxHeal;
         private float health;
+        private float charge_spe;
         private float atk;
         private float def;
         private List<Movimentos> moves;
@@ -29,6 +30,11 @@ namespace Fate_Orientado_a_objeto
         {
             get => health;
             set => health = value;
+        }
+        public float Charge_spe
+        {
+            get => charge_spe;
+            set => charge_spe = value;
         }
         public float Atk
         {

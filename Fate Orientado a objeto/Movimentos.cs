@@ -10,9 +10,9 @@ namespace Fate_Orientado_a_objeto
     {
         private string name_move;
         private bool special;
-        private float charge_spe;
         private float atk_bonus;
         private float def_bonus;
+        private float charge_bonus;
 
         public string Name_move
         {
@@ -24,11 +24,6 @@ namespace Fate_Orientado_a_objeto
             get => special;
             set => special = value;
         }
-        public float Charge_spe
-        {
-            get => charge_spe;
-            set => charge_spe = value;
-        }
         public float Atk_bonus
         {
             get => atk_bonus;
@@ -38,6 +33,11 @@ namespace Fate_Orientado_a_objeto
         {
             get => def_bonus;
             set => def_bonus = value;
+        }
+        public float Charge_bonus
+        {
+            get => charge_bonus;
+            set => charge_bonus = value;
         }
     }
 }
