@@ -14,48 +14,24 @@ namespace Fate_Orientado_a_objeto
         {
             servos = new List<Servants>
             {
-                new Servants()
+                new Servants("Nero", 5000, 1500, 800)
                 {
-                    Name = "Nero",
-                    MaxHeal = 5000,
-                    Charge_spe = 0,
-                    Atk = 1500,
-                    Def = 800,
-                    Health = 5000,
                     Moves = new List<Movimentos>()
                     {
-                        new Movimentos()
-                        {
-                            Name_move = "Buster",
-                            Special = false,
-                            Atk_bonus = 500,
-                            Def_bonus = 0,
-                            Charge_bonus= 0
-                        },
-                        new Movimentos()
-                        {
-                            Name_move = "Arts",
-                            Special = false,
-                            Atk_bonus = 100,
-                            Def_bonus = 200,
-                            Charge_bonus = 25
-                        },
-                        new Movimentos()
-                        {
-                            Name_move = "Quick",
-                            Special = false,
-                            Atk_bonus = 200,
-                            Def_bonus = 100,
-                            Charge_bonus = 10
-                        },
-                        new Movimentos()
-                        {
-                            Name_move = "Noble Phatasma",
-                            Special = true,
-                            Atk_bonus = 3000,
-                            Def_bonus = 0,
-                            Charge_bonus = -100
-                        }
+                        new Movimentos("Buster", false, 500, 0, 0),
+                        new Movimentos("Arts", false, 100, 200, 25),
+                        new Movimentos("Quick", false, 200, 100, 10),
+                        new Movimentos("Noble Phantasma", true, 3000, 0, -100)
+                    }
+                },
+                new Servants("Ishtar", 4000, 2000, 200)
+                {
+                    Moves = new List<Movimentos>()
+                    {
+                        new Movimentos("Buster", false, 400, 0, 0),
+                        new Movimentos("Arts", false, 200, 200, 30),
+                        new Movimentos("Quick", false, 200, 100, 10),
+                        new Movimentos("Noble Phantasma", true, 2000, 0, -100)
                     }
                 }
             };

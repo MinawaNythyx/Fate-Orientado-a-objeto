@@ -51,5 +51,13 @@ namespace Fate_Orientado_a_objeto
             get => moves;
             set => moves = value;
         }
+        public Servants(string nam, float maxhe, float atkq, float defa)
+        {
+            Name = nam;
+            MaxHeal = maxhe;
+            Atk = atkq;
+            Def = defa;
+            Charge_spe = 0;
+        }
     }
 }
