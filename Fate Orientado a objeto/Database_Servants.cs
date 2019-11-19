@@ -9,7 +9,7 @@ namespace Fate_Orientado_a_objeto
     public class Database_Servants
     {
         public List<Servants> servos;
-        public List<Movimentos> muve;
+        #region Servants
         public void Servants_creation()
         {
             servos = new List<Servants>
@@ -36,5 +36,17 @@ namespace Fate_Orientado_a_objeto
                 }
             };
         }
+        #endregion
+        #region List of Servants Call
+        public void List_of_servants()
+        {
+            int y = 1;
+            foreach(var serv in servos)
+            {
+                Console.WriteLine("{0} - {1}", y, serv.Name);
+                y++;
+            }
+        }
+        #endregion
     }
 }

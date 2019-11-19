@@ -14,13 +14,24 @@ namespace Fate_Orientado_a_objeto
             Master Player = new Master();
             Master Player2 = new Master();
             data.Servants_creation();
-            int y = 1;
-            foreach(var serv in data.servos)
-            {
-                Console.WriteLine("{0} - {1}", y, serv.Name);
-                y++;
-            }
-            Console.ReadKey();
+            Player.Master_Creation(1);
+            Player2.Master_Creation(2);
+            Console.WriteLine("Hora de escolher um servo para começar a batalha, começaremos pelo jogador 1, {0}", Player.Name);
+            Console.WriteLine("Escolha um por favor");
+            data.List_of_servants();
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+            
         }
     }
 }

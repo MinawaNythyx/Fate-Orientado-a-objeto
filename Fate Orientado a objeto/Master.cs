@@ -21,5 +21,20 @@ namespace Fate_Orientado_a_objeto
             get => servos;
             set => servos = value;
         }
+
+        public void Master_Creation(int p)
+        {
+            Console.WriteLine("Então registraremos nosso {0}º mestre.", p);
+            bool choice;
+            do
+            {
+                Console.WriteLine("Qual seu nome?");
+                Name = Console.ReadLine();
+                Console.WriteLine("Seu nome é {0}?\nSim - s ou Não - n", Name);
+                char l = char.ToLower(Convert.ToChar(Console.ReadLine()));
+                choice = l == 's' ? false : true;
+                Console.Clear();
+            } while (choice);
+        }
     }
 }
