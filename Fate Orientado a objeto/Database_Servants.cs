@@ -34,6 +34,19 @@ namespace Fate_Orientado_a_objeto
                         new Movimentos("Noble Phantasma", true, 2000, 0, -100)
                     }
                 }
+                //Jalter Avenger
+                //Jeanne Ruler
+                //Salter Saber
+                //Artoria Saber
+                //Nitocris Caster
+                //Merlin Caster
+                //Heracles Berserk
+                //Ibaraki Douji Berserk
+                //Shuten Douji Berserk
+                //Cu Lancer
+                //Jake The Ripper Assassin
+                //Queen Medb Rider
+                //Martha Rider
             };
         }
         #endregion
