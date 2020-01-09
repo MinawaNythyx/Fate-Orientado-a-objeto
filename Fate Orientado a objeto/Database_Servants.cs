@@ -35,6 +35,7 @@ namespace Fate_Orientado_a_objeto
                     }
                 }
                 //Jalter Avenger
+                //Jalter Berserk
                 //Jeanne Ruler
                 //Salter Saber
                 //Artoria Saber
@@ -47,6 +48,14 @@ namespace Fate_Orientado_a_objeto
                 //Jake The Ripper Assassin
                 //Queen Medb Rider
                 //Martha Rider
+                //Martha Ruler
+                //Musashi Saber
+                //Gilgamesh Caster
+                //Gilgamesh Archer
+                //MHX Foreigner
+                //MHX Assassin
+                //Nitocris Assassin
+                //Caster Of Midrash
             };
         }
         #endregion
