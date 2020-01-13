@@ -15,6 +15,7 @@ namespace Fate_Orientado_a_objeto
         private float atk;
         private float def;
         private List<Movimentos> moves;
+        private List<Skill> skill;
 
         public string Name
         {
@@ -50,6 +51,11 @@ namespace Fate_Orientado_a_objeto
         {
             get => moves;
             set => moves = value;
+        }
+        public List<Skill> Skill
+        {
+            get => skill;
+            set => skill = value;
         }
         public Servants(string nam, float maxhe, float atkq, float defa)
         {

@@ -52,7 +52,6 @@ namespace Fate_Orientado_a_objeto
                     Console.WriteLine("{0} - {1}", y, serv.Name);
                     Console.WriteLine("{0} - {1}", y, serv2.Name);
                 }
-                
             }
 
             Console.ReadLine();

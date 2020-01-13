@@ -13,15 +13,10 @@ namespace Fate_Orientado_a_objeto
         private float atk_bonus;
         private float def_bonus;
         private float charge_bonus;
-        public Movimentos(string name_move, bool special, float atk_bonus, float def_bonus, float charge_bonus)
+        public Movimentos(string name_move)
         {
             this.name_move = name_move;
-            this.special = special;
-            this.atk_bonus = atk_bonus;
-            this.def_bonus = def_bonus;
-            this.charge_bonus = charge_bonus;
         }
-
         public string Name_move
         {
             get => name_move;
